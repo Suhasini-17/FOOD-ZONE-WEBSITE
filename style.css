@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgba(255, 127, 80, 0.819);
+}
+
+header nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+nav a.active,
+nav a:hover {
+    border-bottom: 2px solid;
+}
+
+/* Container Part CSS */
+.container {
+    padding:40px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.container-content h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.container-content p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.container-content a{
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    background-color: aliceblue;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.container img{
+    max-height: 400px;
+    max-width: 400px;
+}
+.category-container{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.category-container article{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.category{
+    padding: 10px 10px;
+    background-color: coral;
+    border-radius: 25px;
+    text-align: center;
+    transition: all 3s;
+}
+
+.category:hover{
+    transform: scale(1.05);
+}
+
+/* Footer Part Starts Here */
+footer{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #efefef;
+    font-size: 25px;
+}
