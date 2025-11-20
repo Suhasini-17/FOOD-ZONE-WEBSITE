@@ -1,0 +1,46 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(219, 209, 214);
+            padding: 20px;
+        }
+
+        fieldset {
+            background-color: rgb(191, 178, 196);
+            padding: 20px;
+            border: 2px solid ;
+            border-radius: 25px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        legend {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(25, 13, 13);
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"] {
+            padding: 8px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button[type="submit"] {
+            color: white;
+        }
+
+        button[type="reset"] {
+            color: white;
+        }

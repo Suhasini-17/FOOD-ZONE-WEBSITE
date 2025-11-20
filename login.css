@@ -1,0 +1,48 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: cornsilk;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        fieldset {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid;
+            border-radius: 25px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        legend {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+        }
+
+       
+        input[type="email"],
+        input[type="password"] {
+            padding: 8px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button[type="submit"] {
+            color: white;
+        }
+
+        button[type="reset"] {
+            color: white;
+        }
