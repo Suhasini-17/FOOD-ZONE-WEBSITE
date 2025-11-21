@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-   background: linear-gradient(to right, rgba(224, 74, 19, 0.9), rgba(180, 64, 22, 0.871));
+    background: linear-gradient(to right, rgba(224, 74, 19, 0.9), rgba(180, 64, 22, 0.871));
 }
 
 header nav {
