@@ -151,7 +151,7 @@ function displayFood(){
     <div class="food-card">
         <img src=${food.img} alt =${food.name}>
         <h3>${food.name} --₹${food.price}</h3>
-        <button>Add to Cart</button>
+        <button onclick="addToCart(${food.id})">Add to Cart</button>
     </div>
 `).join("")
 }
@@ -173,5 +173,9 @@ displayFood()
 }
 
 function addToCart(id){
-  let
+  let cart=JSON.parse(localStorage.getItem('cart'))||[]
+  let item=foods.find((f)=>f.id===id);
+  cart.push(item);
+  localStorage.setItem('cart',JSON.stringify(cart))
+  alert(`${item.name}added to cart`)
 }
