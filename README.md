@@ -1,4 +1,4 @@
-🍽 FoodZone – Online Food Ordering Website
+# 🍽 FoodZone – Online Food Ordering Website
 
 FoodZone is a responsive web-based food ordering platform where users can browse food items, filter by category, add items to cart, and simulate checkout.  
 The project also includes simple Login and Signup pages (frontend only).
