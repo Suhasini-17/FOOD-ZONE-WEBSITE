@@ -171,3 +171,7 @@ function applyFilter(){
 
 displayFood()
 }
+
+function addToCart(id){
+  let
+}
